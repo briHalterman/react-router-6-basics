@@ -8,25 +8,12 @@ const Header = () => (
     </span>
     <ul className="main-nav">
       <li>
-        <NavLink
-          to="/"
-          end
-          style={({ isActive }) =>
-            isActive ? { background: 'tomato' } : undefined
-          }
-        >
+        <NavLink to="/" end>
           Home
         </NavLink>
       </li>
       <li>
-        <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? 'custom-class-name' : undefined
-          }
-        >
-          About
-        </NavLink>
+        <NavLink to="about">About</NavLink>
       </li>
       <li>
         <NavLink to="teachers">Teachers</NavLink>
