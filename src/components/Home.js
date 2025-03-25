@@ -24,7 +24,9 @@ const Home = () => {
       </p>
       <hr />
       <h3>Featured Teachers</h3>
-      <Link to="teachers/HTML/Tommy-Wingo">Tommy Wingo</Link>
+      <Link to="teachers/HTML/Guil-Hernandez">Guil Hernandez</Link>
+      <Link to="teachers/CSS/Anwar-Montasir">Anwar Montasir</Link>
+      <Link to="teachers/JS/Andrew-Chalkley">Andrew Chalkley</Link>
     </div>
   );
 };
